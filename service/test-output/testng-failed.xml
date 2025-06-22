@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Database Tests(failed)">
+    <classes>
+      <class name="DataBase_testing.FileLoadIntegrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="checkFileHashIsUnique"/>
+          <include name="setupDatabaseConnection"/>
+        </methods>
+      </class> <!-- DataBase_testing.FileLoadIntegrationTest -->
+    </classes>
+  </test> <!-- Database Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

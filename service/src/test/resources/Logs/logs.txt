@@ -1,0 +1,56 @@
+✅ Connected to MySQL successfully!
+14:19:56.253 [main] INFO Listeners.TestListener - TEST STARTED: file_loadTableExistence
+14:19:56.292 [main] INFO Listeners.TestListener - TEST PASSED: file_loadTableExistence
+14:19:56.299 [main] INFO Listeners.TestListener - TEST STARTED: columnsExistence
+14:19:56.303 [main] INFO Listeners.TestListener - TEST PASSED: columnsExistence
+14:20:05.371 [main] INFO Listeners.TestListener - TEST PASSED: validateColumnUpdatesfile_load
+14:20:05.375 [main] INFO Listeners.TestListener - TEST STARTED: existenceOfFile
+14:20:05.378 [main] INFO Listeners.TestListener - TEST PASSED: existenceOfFile
+14:20:05.381 [main] INFO Listeners.TestListener - TEST STARTED: validateDuplicateContent
+14:20:11.400 [main] INFO Listeners.TestListener - TEST PASSED: validateDuplicateContent
+14:20:11.405 [main] INFO Listeners.TestListener - TEST STARTED: testIDValidationForfile_loadTable
+14:20:11.408 [main] INFO Listeners.TestListener - TEST PASSED: testIDValidationForfile_loadTable
+14:20:11.412 [main] INFO Listeners.TestListener - TEST STARTED: file_metadataTablexistence
+14:20:11.420 [main] INFO Listeners.TestListener - TEST PASSED: file_metadataTablexistence
+14:20:11.425 [main] INFO Listeners.TestListener - TEST STARTED: file_metadatacolumnExists
+14:20:11.431 [main] INFO Listeners.TestListener - TEST PASSED: file_metadatacolumnExists
+14:20:11.437 [main] INFO Listeners.TestListener - TEST STARTED: recordProcessed
+14:20:11.444 [main] INFO Listeners.TestListener - TEST PASSED: recordProcessed
+14:20:11.455 [main] INFO Listeners.TestListener - TEST STARTED: UnstructuredFile
+14:20:21.531 [main] INFO Listeners.TestListener - TEST STARTED: validateDatabaseConnection
+14:20:21.579 [main] INFO Listeners.TestListener - TEST PASSED: validateDatabaseConnection
+14:20:21.582 [main] INFO Listeners.TestListener - TEST STARTED: validateDatabaseConnection
+14:20:21.602 [main] INFO Listeners.TestListener - TEST PASSED: validateDatabaseConnection
+14:20:21.605 [main] INFO Listeners.TestListener - TEST STARTED: validateDatabaseConnection
+14:20:21.624 [main] INFO Listeners.TestListener - TEST PASSED: validateDatabaseConnection
+14:20:21.626 [main] INFO Listeners.TestListener - TEST STARTED: validateDatabaseConnection
+14:20:21.632 [main] INFO Listeners.TestListener - TEST PASSED: validateDatabaseConnection
+14:20:21.635 [main] INFO Listeners.TestListener - TEST STARTED: validateDatabaseConnection
+14:20:21.655 [main] INFO Listeners.TestListener - TEST PASSED: validateDatabaseConnection
+14:20:21.658 [main] INFO Listeners.TestListener - TEST STARTED: validateDatabaseConnection
+14:20:21.659 [main] INFO Listeners.TestListener - TEST PASSED: validateDatabaseConnection
+14:20:21.682 [main] INFO Listeners.TestListener - TEST STARTED: insertCSVFile
+14:20:30.719 [main] INFO Listeners.TestListener - TEST PASSED: insertCSVFile
+14:20:30.723 [main] INFO Listeners.TestListener - TEST STARTED: insertTXTFile
+14:20:45.783 [main] INFO Listeners.TestListener - TEST PASSED: insertTXTFile
+14:20:45.788 [main] INFO Listeners.TestListener - TEST STARTED: insertXLSXFile
+14:21:00.845 [main] INFO Listeners.TestListener - TEST PASSED: insertXLSXFile
+14:21:00.848 [main] INFO Listeners.TestListener - TEST STARTED: pngFile
+14:21:15.880 [main] INFO Listeners.TestListener - TEST PASSED: pngFile
+14:21:15.885 [main] INFO Listeners.TestListener - TEST STARTED: jpgFile
+14:21:30.928 [main] INFO Listeners.TestListener - TEST PASSED: jpgFile
+14:21:30.931 [main] INFO Listeners.TestListener - TEST STARTED: checkLoadDateIsCurrent
+14:21:42.990 [main] INFO Listeners.TestListener - TEST PASSED: checkLoadDateIsCurrent
+14:21:42.992 [main] INFO Listeners.TestListener - TEST STARTED: emptyFile
+14:21:52.017 [main] INFO Listeners.TestListener - TEST PASSED: emptyFile
+14:21:52.021 [main] INFO Listeners.TestListener - TEST STARTED: checkErrorsColumnAllowsNull
+14:21:52.039 [main] INFO Listeners.TestListener - TEST PASSED: checkErrorsColumnAllowsNull
+14:21:52.043 [main] INFO Listeners.TestListener - TEST STARTED: checkRecordCountColumnType
+14:21:52.051 [main] INFO Listeners.TestListener - TEST PASSED: checkRecordCountColumnType
+14:21:52.054 [main] INFO Listeners.TestListener - TEST STARTED: checkIdFileMetadata
+14:21:52.070 [main] INFO Listeners.TestListener - TEST PASSED: checkIdFileMetadata
+✅ Database connections closed successfully.
+===============================================
+Suite
+Total tests run: 26, Passes: 26, Failures: 0, Skips: 0
+===============================================

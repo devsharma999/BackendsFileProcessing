@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  Database Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Database Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 26 10:59:42 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>119 seconds (119617 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='DataBase_testing.Db_testing.file_metadatacolumnExists()'><b>file_metadatacolumnExists</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.emptyFile()'><b>emptyFile</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-307605969" onClick='toggleBox("Output-307605969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-307605969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-307605969">
+File moved to: C:/Users/dev.sharma/Desktop/Uploads/<br/>
+Empty file uploaded successfully to destination: BSE_EQ_TM_TRADE_5559_22052025_F.csv<br/>
+Pass-> Record count is zero for the empty file.<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.columnsExistence()'><b>columnsExistence</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.file_metadataTablexistence()'><b>file_metadataTablexistence</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.InvalidCreden.validateDatabaseConnection()'><b>validateDatabaseConnection</b><br>Test class: DataBase_testing.InvalidCreden<br>Parameters: jdbc:mysql://localhost:3306/rrr, , root@39</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.InvalidCreden@8519cb4</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.insertCSVFile()'><b>insertCSVFile</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-1251967187" onClick='toggleBox("Output-1251967187", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1251967187" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1251967187">
+File moved to: C:/Users/dev.sharma/Desktop/Uploads<br/>
+CSV file uploaded successfully to destination: BSE_EQ_TM_TRADE_5556_22052025_F.csv<br/>
+Data from database- id: 4 errors:  filename: BSE_EQ_TM_TRADE_5556_22052025_F.csv loaddate: 2025-05-26 11:00:21 record_count: 3 status: SUCCESS<br/>
+Pass-> CSV file found in database: BSE_EQ_TM_TRADE_5556_22052025_F.csv<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.InvalidCreden.validateDatabaseConnection()'><b>validateDatabaseConnection</b><br>Test class: DataBase_testing.InvalidCreden<br>Parameters: jdbc:mysql://localhost:3313/rrr, root, root@39</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.InvalidCreden@8519cb4</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.checkIdFileMetadata()'><b>checkIdFileMetadata</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-22446425" onClick='toggleBox("Output-22446425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22446425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22446425">
+id is primary key: true<br/>
+id is auto-increment: true<br/>
+Pass-> id is both primary key and auto-increment.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.insertXLSXFile()'><b>insertXLSXFile</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-1818747191" onClick='toggleBox("Output-1818747191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1818747191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1818747191">
+File moved to: C:/Users/dev.sharma/Desktop/UploadsBSE_EQ_TM_TRADE_5512_22052025_F.xlsx<br/>
+xlsx file uploaded successfully to destination: BSE_EQ_TM_TRADE_5512_22052025_F.xlsx<br/>
+Pass-> xlsx file not uploaded in database<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.InvalidCreden.validateDatabaseConnection()'><b>validateDatabaseConnection</b><br>Test class: DataBase_testing.InvalidCreden<br>Parameters: jdbc:mysql://localhost:3306/re, root, root@39</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.InvalidCreden@8519cb4</td></tr>
+<tr>
+<td title='DataBase_testing.InvalidCreden.validateDatabaseConnection()'><b>validateDatabaseConnection</b><br>Test class: DataBase_testing.InvalidCreden<br>Parameters: , , </td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.InvalidCreden@8519cb4</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.UnstructuredFile()'><b>UnstructuredFile</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>10</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.insertTXTFile()'><b>insertTXTFile</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-901689694" onClick='toggleBox("Output-901689694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-901689694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-901689694">
+File moved to: C:/Users/dev.sharma/Desktop/Uploads<br/>
+txt file uploaded successfully to destination: BSE_EQ_TM_TRADE_5511_22052025_F.txt<br/>
+Pass-> txt file not uploaded in database<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.jpgFile()'><b>jpgFile</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-421191743" onClick='toggleBox("Output-421191743", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-421191743" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-421191743">
+File moved to: C:/Users/dev.sharma/Desktop/Uploads<br/>
+jpg file uploaded successfully: BSE_EQ_TM_TRADE_5514_22052025_F.jpg<br/>
+Pass-> jpg File not uploaded in database<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.existenceOfFile()'><b>existenceOfFile</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.validateDuplicateContent()'><b>validateDuplicateContent</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>6</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.file_loadTableExistence()'><b>file_loadTableExistence</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.testIDValidationForfile_loadTable()'><b>testIDValidationForfile_loadTable</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.checkRecordCountColumnType()'><b>checkRecordCountColumnType</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-1709578324" onClick='toggleBox("Output-1709578324", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1709578324" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1709578324">
+recordCount column type: BIGINT<br/>
+Pass-> recordCount is correctly set as BIGINT<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.pngFile()'><b>pngFile</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-747870628" onClick='toggleBox("Output-747870628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747870628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747870628">
+File moved to: C:/Users/dev.sharma/Desktop/Uploads<br/>
+png file uploaded successfully: BSE_EQ_TM_TRADE_5513_22052025_F.png<br/>
+Pass-> png File not uploaded in database<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.InvalidCreden.validateDatabaseConnection()'><b>validateDatabaseConnection</b><br>Test class: DataBase_testing.InvalidCreden<br>Parameters: jdbc:mysql://localhost:3306/rrr, admin23, 21431</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.InvalidCreden@8519cb4</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.checkLoadDateIsCurrent()'><b>checkLoadDateIsCurrent</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-1622613647" onClick='toggleBox("Output-1622613647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1622613647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1622613647">
+File moved to upload folder: C:/Users/dev.sharma/Desktop/Uploads<br/>
+File uploaded successfully to destination: BSE_EQ_TM_TRADE_5555_22052025_F.csv<br/>
+Pass-> Load date is current: 2025-05-26 11:01:31<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.FileLoadIntegrationTest.checkErrorsColumnAllowsNull()'><b>checkErrorsColumnAllowsNull</b><br>Test class: DataBase_testing.FileLoadIntegrationTest<br/>
+<a href="#Output-1801021153" onClick='toggleBox("Output-1801021153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1801021153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1801021153">
+errors column allows NULL: true<br/>
+Pass-> The 'errors' column allows NULL values.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.FileLoadIntegrationTest@35dab4eb</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.validateColumnUpdatesfile_load()'><b>validateColumnUpdatesfile_load</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>12</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+<tr>
+<td title='DataBase_testing.InvalidCreden.validateDatabaseConnection()'><b>validateDatabaseConnection</b><br>Test class: DataBase_testing.InvalidCreden<br>Parameters: jdbc:mysql://localhost:3306/rrr, root, </td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.InvalidCreden@8519cb4</td></tr>
+<tr>
+<td title='DataBase_testing.Db_testing.recordProcessed()'><b>recordProcessed</b><br>Test class: DataBase_testing.Db_testing</td>
+<td></td>
+<td>0</td>
+<td>DataBase_testing.Db_testing@4a83a74a</td></tr>
+</table><p>
+</body>
+</html>

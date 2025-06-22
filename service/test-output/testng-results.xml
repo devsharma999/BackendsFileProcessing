@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+    </line>
+    <line>
+      <![CDATA[CSV file uploaded successfully to destination: BSE_EQ_TM_TRADE_5556_22052025_F.csv]]>
+    </line>
+    <line>
+      <![CDATA[Data from database- id: 4 errors:  filename: BSE_EQ_TM_TRADE_5556_22052025_F.csv loaddate: 2025-05-26 11:00:21 record_count: 3 status: SUCCESS]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> CSV file found in database: BSE_EQ_TM_TRADE_5556_22052025_F.csv]]>
+    </line>
+    <line>
+      <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+    </line>
+    <line>
+      <![CDATA[txt file uploaded successfully to destination: BSE_EQ_TM_TRADE_5511_22052025_F.txt]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> txt file not uploaded in database]]>
+    </line>
+    <line>
+      <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/UploadsBSE_EQ_TM_TRADE_5512_22052025_F.xlsx]]>
+    </line>
+    <line>
+      <![CDATA[xlsx file uploaded successfully to destination: BSE_EQ_TM_TRADE_5512_22052025_F.xlsx]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> xlsx file not uploaded in database]]>
+    </line>
+    <line>
+      <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+    </line>
+    <line>
+      <![CDATA[png file uploaded successfully: BSE_EQ_TM_TRADE_5513_22052025_F.png]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> png File not uploaded in database]]>
+    </line>
+    <line>
+      <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+    </line>
+    <line>
+      <![CDATA[jpg file uploaded successfully: BSE_EQ_TM_TRADE_5514_22052025_F.jpg]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> jpg File not uploaded in database]]>
+    </line>
+    <line>
+      <![CDATA[File moved to upload folder: C:/Users/dev.sharma/Desktop/Uploads]]>
+    </line>
+    <line>
+      <![CDATA[File uploaded successfully to destination: BSE_EQ_TM_TRADE_5555_22052025_F.csv]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> Load date is current: 2025-05-26 11:01:31]]>
+    </line>
+    <line>
+      <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads/]]>
+    </line>
+    <line>
+      <![CDATA[Empty file uploaded successfully to destination: BSE_EQ_TM_TRADE_5559_22052025_F.csv]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> Record count is zero for the empty file.]]>
+    </line>
+    <line>
+      <![CDATA[errors column allows NULL: true]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> The 'errors' column allows NULL values.]]>
+    </line>
+    <line>
+      <![CDATA[recordCount column type: BIGINT]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> recordCount is correctly set as BIGINT]]>
+    </line>
+    <line>
+      <![CDATA[id is primary key: true]]>
+    </line>
+    <line>
+      <![CDATA[id is auto-increment: true]]>
+    </line>
+    <line>
+      <![CDATA[Pass-> id is both primary key and auto-increment.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-26T10:59:42 IST" name="Suite" finished-at="2025-05-26T11:01:42 IST" duration-ms="119617">
+    <groups>
+    </groups>
+    <test started-at="2025-05-26T10:59:42 IST" name="Database Tests" finished-at="2025-05-26T11:01:42 IST" duration-ms="119617">
+      <class name="DataBase_testing.InvalidCreden">
+        <test-method is-config="true" signature="setupDatabaseConnection()[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="setupDatabaseConnection" finished-at="2025-05-26T11:00:11 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDatabaseConnection -->
+        <test-method signature="validateDatabaseConnection(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="validateDatabaseConnection" data-provider="invalidDbData" finished-at="2025-05-26T11:00:11 IST" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jdbc:mysql://localhost:3306/rrr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin23]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21431]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatabaseConnection -->
+        <test-method signature="validateDatabaseConnection(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="validateDatabaseConnection" data-provider="invalidDbData" finished-at="2025-05-26T11:00:11 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jdbc:mysql://localhost:3306/rrr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[root@39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatabaseConnection -->
+        <test-method signature="validateDatabaseConnection(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="validateDatabaseConnection" data-provider="invalidDbData" finished-at="2025-05-26T11:00:11 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jdbc:mysql://localhost:3306/rrr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatabaseConnection -->
+        <test-method signature="validateDatabaseConnection(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="validateDatabaseConnection" data-provider="invalidDbData" finished-at="2025-05-26T11:00:11 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jdbc:mysql://localhost:3313/rrr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[root@39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatabaseConnection -->
+        <test-method signature="validateDatabaseConnection(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="validateDatabaseConnection" data-provider="invalidDbData" finished-at="2025-05-26T11:00:11 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jdbc:mysql://localhost:3306/re]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[root]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[root@39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatabaseConnection -->
+        <test-method signature="validateDatabaseConnection(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="validateDatabaseConnection" data-provider="invalidDbData" finished-at="2025-05-26T11:00:11 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDatabaseConnection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DataBase_testing.InvalidCreden@8519cb4]" started-at="2025-05-26T11:00:11 IST" name="tearDown" finished-at="2025-05-26T11:00:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DataBase_testing.InvalidCreden -->
+      <class name="DataBase_testing.FileLoadIntegrationTest">
+        <test-method is-config="true" signature="setupDatabaseConnection()[pri:0, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:00:11 IST" name="setupDatabaseConnection" finished-at="2025-05-26T11:00:11 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDatabaseConnection -->
+        <test-method signature="insertCSVFile()[pri:1, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:00:11 IST" name="insertCSVFile" finished-at="2025-05-26T11:00:23 IST" duration-ms="12051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+            </line>
+            <line>
+              <![CDATA[CSV file uploaded successfully to destination: BSE_EQ_TM_TRADE_5556_22052025_F.csv]]>
+            </line>
+            <line>
+              <![CDATA[Data from database- id: 4 errors:  filename: BSE_EQ_TM_TRADE_5556_22052025_F.csv loaddate: 2025-05-26 11:00:21 record_count: 3 status: SUCCESS]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> CSV file found in database: BSE_EQ_TM_TRADE_5556_22052025_F.csv]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insertCSVFile -->
+        <test-method signature="insertTXTFile()[pri:2, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:00:23 IST" name="insertTXTFile" finished-at="2025-05-26T11:00:38 IST" duration-ms="15063" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+            </line>
+            <line>
+              <![CDATA[txt file uploaded successfully to destination: BSE_EQ_TM_TRADE_5511_22052025_F.txt]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> txt file not uploaded in database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insertTXTFile -->
+        <test-method signature="insertXLSXFile()[pri:3, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:00:38 IST" name="insertXLSXFile" finished-at="2025-05-26T11:00:53 IST" duration-ms="15053" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/UploadsBSE_EQ_TM_TRADE_5512_22052025_F.xlsx]]>
+            </line>
+            <line>
+              <![CDATA[xlsx file uploaded successfully to destination: BSE_EQ_TM_TRADE_5512_22052025_F.xlsx]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> xlsx file not uploaded in database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- insertXLSXFile -->
+        <test-method signature="pngFile()[pri:4, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:00:53 IST" name="pngFile" finished-at="2025-05-26T11:01:08 IST" duration-ms="15059" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+            </line>
+            <line>
+              <![CDATA[png file uploaded successfully: BSE_EQ_TM_TRADE_5513_22052025_F.png]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> png File not uploaded in database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pngFile -->
+        <test-method signature="jpgFile()[pri:5, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:01:08 IST" name="jpgFile" finished-at="2025-05-26T11:01:23 IST" duration-ms="15064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads]]>
+            </line>
+            <line>
+              <![CDATA[jpg file uploaded successfully: BSE_EQ_TM_TRADE_5514_22052025_F.jpg]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> jpg File not uploaded in database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jpgFile -->
+        <test-method signature="checkLoadDateIsCurrent()[pri:6, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:01:23 IST" name="checkLoadDateIsCurrent" finished-at="2025-05-26T11:01:33 IST" duration-ms="9073" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to upload folder: C:/Users/dev.sharma/Desktop/Uploads]]>
+            </line>
+            <line>
+              <![CDATA[File uploaded successfully to destination: BSE_EQ_TM_TRADE_5555_22052025_F.csv]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> Load date is current: 2025-05-26 11:01:31]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoadDateIsCurrent -->
+        <test-method signature="emptyFile()[pri:7, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:01:33 IST" name="emptyFile" finished-at="2025-05-26T11:01:42 IST" duration-ms="9035" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[File moved to: C:/Users/dev.sharma/Desktop/Uploads/]]>
+            </line>
+            <line>
+              <![CDATA[Empty file uploaded successfully to destination: BSE_EQ_TM_TRADE_5559_22052025_F.csv]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> Record count is zero for the empty file.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyFile -->
+        <test-method signature="checkErrorsColumnAllowsNull()[pri:8, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:01:42 IST" name="checkErrorsColumnAllowsNull" finished-at="2025-05-26T11:01:42 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[errors column allows NULL: true]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> The 'errors' column allows NULL values.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkErrorsColumnAllowsNull -->
+        <test-method signature="checkRecordCountColumnType()[pri:9, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:01:42 IST" name="checkRecordCountColumnType" finished-at="2025-05-26T11:01:42 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[recordCount column type: BIGINT]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> recordCount is correctly set as BIGINT]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkRecordCountColumnType -->
+        <test-method signature="checkIdFileMetadata()[pri:10, instance:DataBase_testing.FileLoadIntegrationTest@35dab4eb]" started-at="2025-05-26T11:01:42 IST" name="checkIdFileMetadata" finished-at="2025-05-26T11:01:42 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[id is primary key: true]]>
+            </line>
+            <line>
+              <![CDATA[id is auto-increment: true]]>
+            </line>
+            <line>
+              <![CDATA[Pass-> id is both primary key and auto-increment.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkIdFileMetadata -->
+      </class> <!-- DataBase_testing.FileLoadIntegrationTest -->
+      <class name="DataBase_testing.Db_testing">
+        <test-method is-config="true" signature="setupDatabaseConnection()[pri:0, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T10:59:42 IST" name="setupDatabaseConnection" finished-at="2025-05-26T10:59:43 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDatabaseConnection -->
+        <test-method signature="file_loadTableExistence()[pri:1, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T10:59:43 IST" name="file_loadTableExistence" finished-at="2025-05-26T10:59:43 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_loadTableExistence -->
+        <test-method signature="columnsExistence()[pri:2, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T10:59:43 IST" name="columnsExistence" finished-at="2025-05-26T10:59:43 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- columnsExistence -->
+        <test-method signature="validateColumnUpdatesfile_load()[pri:3, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T10:59:43 IST" name="validateColumnUpdatesfile_load" finished-at="2025-05-26T10:59:55 IST" duration-ms="12090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateColumnUpdatesfile_load -->
+        <test-method signature="existenceOfFile()[pri:4, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T10:59:55 IST" name="existenceOfFile" finished-at="2025-05-26T10:59:55 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existenceOfFile -->
+        <test-method signature="validateDuplicateContent()[pri:5, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T10:59:55 IST" name="validateDuplicateContent" finished-at="2025-05-26T11:00:01 IST" duration-ms="6026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDuplicateContent -->
+        <test-method signature="testIDValidationForfile_loadTable()[pri:6, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:00:01 IST" name="testIDValidationForfile_loadTable" finished-at="2025-05-26T11:00:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIDValidationForfile_loadTable -->
+        <test-method signature="file_metadataTablexistence()[pri:7, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:00:01 IST" name="file_metadataTablexistence" finished-at="2025-05-26T11:00:01 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_metadataTablexistence -->
+        <test-method signature="file_metadatacolumnExists()[pri:8, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:00:01 IST" name="file_metadatacolumnExists" finished-at="2025-05-26T11:00:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_metadatacolumnExists -->
+        <test-method signature="recordProcessed()[pri:9, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:00:01 IST" name="recordProcessed" finished-at="2025-05-26T11:00:01 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordProcessed -->
+        <test-method signature="UnstructuredFile()[pri:10, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:00:01 IST" name="UnstructuredFile" finished-at="2025-05-26T11:00:11 IST" duration-ms="10032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnstructuredFile -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:00:11 IST" name="cleanup" finished-at="2025-05-26T11:00:11 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DataBase_testing.Db_testing@4a83a74a]" started-at="2025-05-26T11:01:42 IST" name="tearDown" finished-at="2025-05-26T11:01:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DataBase_testing.Db_testing -->
+    </test> <!-- Database Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Listeners.TestListener"/>
+    </listeners>
+
+    <test thread-count="5" name="Database Tests">
+        <classes>
+            <class name="DataBase_testing.Db_testing"/>
+            <class name="DataBase_testing.InvalidCreden"/>
+            <class name="DataBase_testing.FileLoadIntegrationTest"/>
+        </classes>
+    </test>
+</suite>
